@@ -513,9 +513,9 @@ button {
     }
   }
 
-  @media screen and (max-width: 388px) {
+  @media screen and (max-width: 430px) {
     .a1 {
-      margin: 0px 0px 0px 5px;
+      margin: 0px 0px 0px 0px;
     }
   }
 
