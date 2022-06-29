@@ -565,7 +565,7 @@ button {
 
   @media screen and (max-width: 430px) {
     .home {
-      grid-template-rows: 15.3333% 11% 12% 5% 13.3334% 35.5333% 7.8%;
+      grid-template-rows: 15.3333% 11% 12% 5% 13.3334% 33.5333% 9.8%;
     }
   }
 
