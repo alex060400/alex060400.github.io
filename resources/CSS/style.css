@@ -538,6 +538,11 @@ button {
     }
   }
 
+  @media screen and (max-width: 430px) {
+    .white {
+      opacity: 0;
+    }
+  }
 
 /*#alex, .a2 {
     transition: all 0.3s ease 0s;
