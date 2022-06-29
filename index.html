@@ -2,7 +2,7 @@
 <html>
       <head>
         <title>PORTFOLIO</title>
-        <link href="resources/CSS/style.css" rel="stylesheet" type="text/css">
+        <link href="resources/CSS/style.css" rel="stylesheet" type="text/css"">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
       </head>
       <body>
@@ -33,7 +33,7 @@
             </div>
             <div class="link3">
               <h1 class="case">
-                <a href="#" class="a3">CASE STUDIES - RESEARCH</a>
+                <a href="#" class="a3">PORTFOLIO - RESEARCH</a>
               </h1>
             </div>
             <div class="button1">
@@ -106,6 +106,13 @@
             var home = document.querySelector(".home");
 	              home.classList.toggle("blue")
           }
+
+          $(window).resize(function(){
+        if(window.innerWidth < 500) {
+            $(".desktop").removeAttr("style");
+
+        }
+});
         </script>
       </body>
 </html>

@@ -56,7 +56,6 @@ body {
     text-decoration: none;
     color: rgb(0, 0, 0);
     margin: 0px 0px 0px 34px;
-    margin: 0px;
 }
 
 
@@ -372,6 +371,183 @@ button {
     padding: 0px 22px 0px 0px;
 }
 
+#alex, .a2 {
+    transition: all 0.3s ease 0s;
+  }
+  
+#alex, .a2:hover {
+    text-decoration: none;
+    color: #484848;
+  }
+
+#case, .a3 {
+    transition: all 0.3s ease 0s;
+  }
+  
+#case, .a3:hover {
+    text-decoration: none;
+    color: #484848;
+  }
+
+#index, .a4 {
+    transition: all 0.3s ease 0s;
+  }
+  
+#index, .a4:hover {
+    text-decoration: none;
+    color: #484848;
+  }
+
+.about1, .about1half {
+    text-align: center;
+  }
+
+@media screen and (max-width: 630px) {
+    .link3 {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 840px) {
+    .button1 {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 950px) {
+    .body3 {
+      grid-column-start: 3;
+    }
+  }
+
+@media screen and (max-width: 480px) {
+    .body3 {
+      grid-column-start: 4;
+    }
+  }
+
+@media screen and (max-width: 456px) {
+    .about1 {
+      margin: 0;
+    }
+  }
+
+@media screen and (max-width: 728px) {
+    .nav, .link2, .link3, .link4, .button1, button {
+      background-color: white;
+      background: white;
+      border-color: white;
+    }
+  }
+
+@media screen and (max-width: 556px) {
+    .body4 {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 556px) {
+    .sixfour, .cord {
+      padding: 0px;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .sixfour, .cord {
+      padding: 0px 20px 0px 0px;
+    }
+  }
+
+  @media screen and (max-width: 615px) {
+    .sixfour, .cord {
+      padding: 0px 17px 0px 0px;
+    }
+  }
+
+  @media screen and (max-width: 571) {
+    .sixfour, .cord {
+      padding: 0px 14px 0px 0px;
+    }
+  }
+
+@media screen and (max-width: 548px) {
+    .link4 {
+      margin: 0px;
+      grid-column-start: 4;
+    }
+  }
+
+  @media screen and (max-width: 465px) {
+    .a1 {
+      margin: 0px;
+    }
+  }
+
+  @media screen and (max-width: 713px) {
+    .a1 {
+      margin: 0px 0px 0px 29px;
+    }
+  }
+
+  @media screen and (max-width: 672px) {
+    .a1 {
+      margin: 0px 0px 0px 24px;
+    }
+  }
+
+  @media screen and (max-width: 535px) {
+    .a1 {
+      margin: 0px 0px 0px 20px;
+    }
+  }
+
+  @media screen and (max-width: 501px) {
+    .a1 {
+      margin: 0px 0px 0px 15px;
+    }
+  }
+
+  @media screen and (max-width: 459px) {
+    .a1 {
+      margin: 0px 0px 0px 10px;
+    }
+  }
+
+  @media screen and (max-width: 388px) {
+    .a1 {
+      margin: 0px 0px 0px 5px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .a1 {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+
+  @media screen and (max-width: 373px) {
+    .home {
+      margin: 0px 0px 0px 3px;
+    }
+  }
+
+  @media screen and (max-width: 548px) {
+    .a4 {
+      grid-column-start: 5;
+      margin: 0px;
+    }
+  }
+
+
+/*#alex, .a2 {
+    transition: all 0.3s ease 0s;
+  }
+  
+#alex, .a2:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+  }*/
 
 
 /*.blue {
